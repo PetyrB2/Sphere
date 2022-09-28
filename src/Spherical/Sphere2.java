@@ -14,6 +14,7 @@ public class Sphere2 {
 	        float c;
 	        float a;
 	        float v;
+	        float s;
 	        float pi = 3.14F;
 	        float fourThirds = 4/3;
 	        // r = radius
@@ -21,17 +22,18 @@ public class Sphere2 {
 		    // c = circumference
 		    // a = area
 	        // v = Volume
-	        
+	        // s = Surface Area = 4 * pi * (r * r)
 	        /* Calculation of diameter, circumference and area */
 		    d = 2 * r;
 		    c = 2 * (float)3.14 * r;
 		    a = pi * (r * r);
 		    v = fourThirds * pi * (r * r * r);
-			
+			s = 4 * pi * (r * r);
 	        System.out.println("\n");
 	        System.out.println("Diameter      = " + d + " units");
 	        System.out.println("Circumference = " + c + " units");
 	        System.out.println("Area          = " + a + " sq. units");
-	        System.out.println("Volume        = " + v + " some sq. units");
+	        System.out.println("Volume        = " + v + " cubed units");
+	        System.out.println("Surface Area  = " + s + " sq. units");
 	    }
 	}
