@@ -39,10 +39,13 @@ public class Sphere2 {
 				throw new IllegalArgumentException("Radius must be a positive value.");
 			}
 			System.out.println("\n");
+			System.out.println("A Sphere with the Radius of '" + r + "' will produce the following Results");
+			System.out.println("===============================");
 	        System.out.println("Diameter      = " + d + " units");
 	        System.out.println("Circumference = " + c + " units");
 	        System.out.println("Area          = " + a + " sq. units");
 	        System.out.println("Volume        = " + v + " cubed units");
 	        System.out.println("Surface Area  = " + s + " sq. units");
-	    }
+	        System.out.println("===============================");   
+	 }
 	}
